@@ -1,0 +1,24 @@
+{
+  "name": "hello-world",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.8.1",
+    "@astrojs/vercel": "^7.7.2",
+    "@auth/core": "^0.32.0",
+    "@lucia-auth/adapter-sqlite": "^3.0.2",
+    "@node-rs/argon2": "^1.8.3",
+    "astro": "^4.11.5",
+    "auth-astro": "^4.1.2",
+    "better-sqlite3": "^11.1.2",
+    "lucia": "^3.2.0",
+    "typescript": "^5.5.3"
+  }
+}
